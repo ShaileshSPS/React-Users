@@ -3,6 +3,7 @@ import axios from 'axios'
 import { useHistory } from "react-router-dom";
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
+toast.configure();
 
 const AddUser = () => {
   let history = useHistory();

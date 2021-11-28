@@ -8,14 +8,12 @@ import Navbar from "./components/layout/Navbar";
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
-  withRouter
+  Switch
 } from "react-router-dom";
 import NotFound from "./components/pages/NotFound";
 import AddUser from "./components/users/AddUser";
 import EditUser from "./components/users/EditUser";
 import UserDetails from "./components/users/UserDetails";
-import 'react-toastify/dist/ReactToastify.css';
 
 function App(props) {
   return (
