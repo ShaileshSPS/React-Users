@@ -1,1 +1,5 @@
 https://jsonplaceholder.typicode.com/users
+
+https://www.npmjs.com/
+
+https://yarnpkg.com/
